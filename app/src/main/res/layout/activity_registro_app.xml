@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/img_registro"
+    tools:context=".registro_app">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="20dp"
+        android:text="@string/registro_a_la_app"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nombre"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="16dp" />
+
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/contrase_a"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/registrarse"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="si ya tienes_una cuenta creada has click iniciar sesion"
+        android:textSize="19sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSesion"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/iniciar_sesion"
+        android:textColor="@color/white" />
+
+</LinearLayout>

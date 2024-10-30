@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coral">#FE7952</color>
+    <color name="gris_claro">#FF80AB</color>
+    <color name="gris_oscuro">#4A4A4A</color>
+    <color name="cafe_suave">#b38b80</color>
+    <color name="tono">#c67769</color>
+    <color name="fondo">#1AA9EB</color>
+    <color name="rojo">#E7371F</color>
+    <color name="turr">#03DAC5</color>
+    <color name="amarrillo">#FFF8E1</color>
+    <color name="celes">#4FC3F7</color>
+
+
+
+
+
+
+</resources>

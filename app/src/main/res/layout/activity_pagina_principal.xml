@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tono"
+    tools:context=".pagina_principal">
+
+    <TextView
+        android:id="@+id/textViewBienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bienvenido_a_casitas_en_llamas"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="30dp" />
+
+    <ImageView
+        android:layout_width="426dp"
+        android:layout_height="257dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pagina_principal" />
+
+    <Button
+        android:id="@+id/btnAlertas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/sistema_de_notificaciones"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnConfiguracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/configuracion_del_sistema"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnTermohigrometro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/inspeccion_de_humo"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
